@@ -1,12 +1,6 @@
 import * as React from "react";
 import Diff from "./DiffViewer";
 
-// textarea {
-//   resize: vertical;
-//   width:300px;
-//   height:200px;
-// }
-
 const App: React.FC = () => {
   const [from, setFrom] = React.useState("ソーメンダンス");
   const [to, setTo] = React.useState("ラーメンダンス");

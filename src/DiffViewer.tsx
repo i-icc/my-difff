@@ -8,7 +8,7 @@ type Props = {
 };
 
 const Diff: React.FC<Props> = ({ from, to }) => {
-  const diff = React.useMemo(() => {
+  React.useMemo(() => {
     return diffWordsWithSpace(from, to);
   }, [from, to]);
 
