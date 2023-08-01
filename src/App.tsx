@@ -1,5 +1,6 @@
 import * as React from "react";
 import Diff from "./DiffViewer";
+import './App.css'
 
 const App: React.FC = () => {
   const [from, setFrom] = React.useState("ソーメンダンス");
